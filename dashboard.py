@@ -35,7 +35,7 @@ st.sidebar.header("Filters")
 selected_continents = st.sidebar.multiselect(
     "Select continents",
     df['continent'].unique(),
-    default=df['continent'].unique()
+    default='Europe'
 )
 selected_devices = st.sidebar.multiselect(
     "Select devices",
